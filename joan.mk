@@ -26,7 +26,7 @@ PRODUCT_SOONG_NAMESPACES += \
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay \
 #    $(COMMON_PATH)/overlay-lineage
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
+# PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Properties
 -include $(COMMON_PATH)/vendor_prop.mk
