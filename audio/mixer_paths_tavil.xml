@@ -2094,7 +2094,7 @@
 
     <path name="voice-headset-mic">
         <path name="headset-mic" />
-        <ctl name="DEC0 Volume" value="86" />
+        <ctl name="DEC0 Volume" value="94" />
     </path>
 
     <path name="speaker-and-headphones">
