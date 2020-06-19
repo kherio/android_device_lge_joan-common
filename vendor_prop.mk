@@ -52,7 +52,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.product.lge.audio.dual_audio=ON \
     vendor.audio_hal.period_size=480 \
     ro.af.client_heap_size_kbyte=7168 \
-    persist.vendor.audio.hw.binder.size_kbyte=1024
+    persist.vendor.audio.hw.binder.size_kbyte=1024 \
+    persist.vendor.lge.3rd.speaker.prot.enable=on
 
 # Audio - DAC
 PRODUCT_PROPERTY_OVERRIDES += \
