@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Xiaomi</string>
+    <string name="app_name">AdvancedControls</string>
     <string name="advanced_settings">Настройки устройства</string>
     <string name="category_vibrator">Вибрация</string>
     <string name="vib_strength_title_head">Сила</string>
