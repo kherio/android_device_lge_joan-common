@@ -322,6 +322,10 @@
 
     <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
+	
+    <!-- Add LePref To ZenHub-->
+    <string name="config_device_parts_package_name" translatable="false">com.lineageos.settings.lepref</string>
+    <string name="config_device_parts_package_activity" translatable="false">com.lineageos.settings.lepref.DeviceSettingsActivity</string>
 
     <!-- Sets the paths that are needed for SystemInfo-->
     <string name="config_cpu_temp_path" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
@@ -330,9 +334,7 @@
     <string name="config_gpu_busy_path" translatable="false">/sys/kernel/gpu/gpu_busy</string>
     <string name="config_battery_level_path" translatable="false">/sys/class/power_supply/battery/capacity</string>
 	
-    <!-- Add Xiaomiparts To ZenHub-->
-    <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings.doze</string>
-    <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.doze.DozeSettingsActivity.java</string>
+    
 	
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
