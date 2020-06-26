@@ -19,6 +19,8 @@ $(call inherit-product-if-exists, vendor/lge/joan-common/joan-common-vendor.mk)
 
 COMMON_PATH := device/lge/joan-common
 
+BUILD_TYPE = OFFICIAL
+
 PRODUCT_SOONG_NAMESPACES += \
     device/lge/joan-common
 
